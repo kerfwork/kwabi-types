@@ -1,0 +1,16 @@
+[package]
+name = "kwabi-types"
+version = "0.1.0"
+edition = "2021"
+description = "Types pack: dec64, uint, posit, sketches, IDs"
+license = "AGPL-3.0-or-later"
+
+[lib]
+name = "kwabi_types"
+crate-type = ["rlib"]
+
+[features]
+default = ["pg18"]
+pg16 = []
+pg17 = []
+pg18 = []
