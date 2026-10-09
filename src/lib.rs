@@ -2,5 +2,7 @@
 //!
 //! Stub crate — no types implemented yet.
 
-/// Placeholder to keep the crate non-empty.
+pub mod uint;
+
+/// The crate version, as built.
 pub const VERSION: &str = env!("CARGO_PKG_VERSION");
